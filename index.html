@@ -15,7 +15,195 @@
 
 <body>
 
-    Hello World
+    <header>
+        <div>
+            <h1>SIMETRY</h1>
+            <div>
+                <a href="#"><img src="img/simetry-logo-icon.svg" width="150"></a>
+            </div>
+        </div>
+        <br>
+        <nav>
+            <span>
+                <a href="#texts" class="nav-item">Texts</a>
+                <a href="#forms" class="nav-item">Forms</a>
+                <a href="#lists" class="nav-item">Lists</a>
+                <a href="#buttons" class="nav-item">Buttons</a>
+                <a href="#hover" class="nav-item">Hover</a>
+                <a href="javascript.html" class="nav-item">JavaScript</a>
+            </span>
+        </nav>
+    </header>
+
+    <hr>
+
+    <section id="texts" class=""> <!-- Texts -->
+        <div>
+            <h1 class="uppercase">Texts</h1>
+            <br>
+            <h2>Hello World</h2>
+            <br>
+            <h3>Hello World</h3>
+            <br>
+            <h4>Hello World</h4>
+            <br>
+            <h5>Hello World</h5>
+            <br>
+            <h6>Hello World</h6>
+            <br>
+            <p class="justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <br>
+            <a href="#">Visit Simetry Page!</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="forms" class=""> <!-- Forms -->
+        <div class="">
+            <form action="">
+                <fieldset>
+                    <h1 class="uppercase">Forms</h1>
+                    <input type="text" placeholder="Name" required>
+                    <br>
+                    <input type="password" placeholder="Password" required>
+                    <br>
+                    <input type="email" placeholder="Email" required>
+                    <br>
+                    <input type="tel" placeholder="Telephone">
+                    <br>
+                    <input id="check-sel-1" type="checkbox" value="Select 1">
+                    <label for="checkbox">Check 1</label>
+                    <input id="check-sel-2" type="checkbox" value="Select 2">
+                    <label for="checkbox">Check 2</label>
+                    <input id="check-sel-3" type="checkbox" value="Select 3">
+                    <label for="checkbox">Check 3</label>
+                    <br>
+                    <input id="radio-sel-1" name="radio-select" type="radio" value="radio-select" checked>
+                    <label for="radio">Select 1</label>
+                    <input id="radio-sel-2" name="radio-select" type="radio" value="radio-select">
+                    <label for="radio">Select 2</label>
+                    <input id="radio-sel-3" name="radio-select" type="radio" value="radio-select">
+                    <label for="radio">Select 3</label>
+                    <br>
+                    <select>
+                        <option value="Option 1">Option 1</option>
+                        <option value="Option 2">Option 2</option>
+                        <option value="Option 3">Option 3</option>
+                        <option value="Option 4">Option 4</option>
+                    </select>
+                    <br><br>
+                    <label for="file-upload">Select A Archive</label>
+                    <input id="file-upload" type="file">
+                    <br><br>
+                    <input type="button" value="Input Button">
+                    <br>
+                    <input type="submit" value="Submit Button">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="lists" class=""> <!-- Lists -->
+        <h1 class="uppercase">Lists</h1>
+        <ul>
+            <li>Unordered 1</li>
+            <li>Unordered 2</li>
+            <li>Unordered 3</li>
+            <li>Unordered 4</li>
+        </ul>
+        <ol>
+            <li>Ordered 1</li>
+            <li>Ordered 2</li>
+            <li>Ordered 3</li>
+            <li>Ordered 4</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <section id="buttons" class=""> <!-- Buttons -->
+        <div>
+            <h1 class="uppercase">Buttons</h1>
+            <button>
+                Basic Button
+            </button>
+            <button class="button-dark">
+                Dark Button
+            </button>
+            <button class="button-minimal">
+                Minimal Button
+            </button>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="hover" class=""> <!-- Hovers -->
+        <div>
+            <h1 class="uppercase">Hover Effects</h1>
+            <img src="img/simetry-logo-icon.svg" width="80" class="fx-rotate" style="padding: 50px;">
+            <img src="img/simetry-logo-icon.svg" width="80" class="fx-grow" style="padding: 50px;">
+            <img src="img/simetry-logo-icon.svg" width="80" class="fx-zoom-out" style="padding: 50px;">
+            <img src="img/simetry-logo-icon.svg" width="80" class="fx-skew" style="padding: 50px;">
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="search" class=""> <!-- Search Bar -->
+        <div>
+            <h1 class="uppercase">Seach Bar</h1>
+            <input type="search" name="" id="">
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="tables" class=""> <!-- Tables -->
+        <div>
+            <h1 class="uppercase">Tables</h1>
+            <table class="">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Col 1</th>
+                    <th>Col 2</th>
+                    <th>Col 3</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>1</th>
+                    <td>First</td>
+                    <td>Second</td>
+                    <td>Third</td>
+                  </tr>
+                  <tr>
+                    <th>2</th>
+                    <td colspan="2">First</td>
+                    <td>Third</td>
+                  </tr>
+                  <tr>
+                    <th>3</th>
+                    <td>First</td>
+                    <td>Second</td>
+                    <td>Third</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </section>
+
+    <hr>
+
+    <footer>
+        Hello Footer
+    </footer>
     
 </body>
 
