@@ -16,29 +16,31 @@
 <body>
 
     <header>
-        <div>
-            <h1>SIMETRY</h1>
+        <div class="container all-center">
             <div>
-                <a href="#"><img src="img/simetry-logo-icon.svg" width="150"></a>
+                <h1>SIMETRY</h1>
+                <div>
+                    <a href="#"><img src="img/simetry-logo-icon.svg" width="150"></a>
+                </div>
             </div>
+            <br>
+            <nav>
+                <span>
+                    <a href="#texts" class="nav-item">Texts</a>
+                    <a href="#forms" class="nav-item">Forms</a>
+                    <a href="#lists" class="nav-item">Lists</a>
+                    <a href="#buttons" class="nav-item">Buttons</a>
+                    <a href="#hover" class="nav-item">Hover</a>
+                    <a href="javascript.html" class="nav-item">JavaScript</a>
+                </span>
+            </nav>
         </div>
-        <br>
-        <nav>
-            <span>
-                <a href="#texts" class="nav-item">Texts</a>
-                <a href="#forms" class="nav-item">Forms</a>
-                <a href="#lists" class="nav-item">Lists</a>
-                <a href="#buttons" class="nav-item">Buttons</a>
-                <a href="#hover" class="nav-item">Hover</a>
-                <a href="javascript.html" class="nav-item">JavaScript</a>
-            </span>
-        </nav>
     </header>
 
     <hr>
 
-    <section id="texts" class=""> <!-- Texts -->
-        <div>
+    <section id="texts"> <!-- Texts -->
+        <div class="container all-center">
             <h1 class="uppercase">Texts</h1>
             <br>
             <h2>Hello World</h2>
@@ -61,11 +63,11 @@
 
     <hr>
 
-    <section id="forms" class=""> <!-- Forms -->
-        <div class="">
+    <section id="forms"> <!-- Forms -->
+        <div class="container all-center">
             <form action="">
+                <h1 class="uppercase">Forms</h1>
                 <fieldset>
-                    <h1 class="uppercase">Forms</h1>
                     <input type="text" placeholder="Name" required>
                     <br>
                     <input type="password" placeholder="Password" required>
@@ -109,25 +111,27 @@
     <hr>
 
     <section id="lists" class=""> <!-- Lists -->
-        <h1 class="uppercase">Lists</h1>
-        <ul>
-            <li>Unordered 1</li>
-            <li>Unordered 2</li>
-            <li>Unordered 3</li>
-            <li>Unordered 4</li>
-        </ul>
-        <ol>
-            <li>Ordered 1</li>
-            <li>Ordered 2</li>
-            <li>Ordered 3</li>
-            <li>Ordered 4</li>
-        </ol>
+        <div class="container all-center">
+            <h1 class="uppercase">Lists</h1>
+            <ul>
+                <li>Unordered 1</li>
+                <li>Unordered 2</li>
+                <li>Unordered 3</li>
+                <li>Unordered 4</li>
+            </ul>
+            <ol>
+                <li>Ordered 1</li>
+                <li>Ordered 2</li>
+                <li>Ordered 3</li>
+                <li>Ordered 4</li>
+            </ol>
+        </div>
     </section>
 
     <hr>
 
     <section id="buttons" class=""> <!-- Buttons -->
-        <div>
+        <div class="all-center">
             <h1 class="uppercase">Buttons</h1>
             <button>
                 Basic Button
@@ -144,7 +148,7 @@
     <hr>
 
     <section id="hover" class=""> <!-- Hovers -->
-        <div>
+        <div class="all-center">
             <h1 class="uppercase">Hover Effects</h1>
             <img src="img/simetry-logo-icon.svg" width="80" class="fx-rotate" style="padding: 50px;">
             <img src="img/simetry-logo-icon.svg" width="80" class="fx-grow" style="padding: 50px;">
@@ -156,7 +160,7 @@
     <hr>
 
     <section id="search" class=""> <!-- Search Bar -->
-        <div>
+        <div class="container all-center">
             <h1 class="uppercase">Seach Bar</h1>
             <input type="search" name="" id="">
         </div>
@@ -165,8 +169,8 @@
     <hr>
 
     <section id="tables" class=""> <!-- Tables -->
-        <div>
-            <h1 class="uppercase">Tables</h1>
+        <div class="container">
+            <h1 class="uppercase all-center">Tables</h1>
             <table class="">
                 <thead>
                   <tr>
@@ -202,7 +206,9 @@
     <hr>
 
     <footer>
-        Hello Footer
+        <div class="container all-center">
+            Hello Footer
+        </div>
     </footer>
     
 </body>

@@ -1,0 +1,314 @@
+* {
+    font-family: Montserrat!important;
+    margin: 0;
+    padding: 0;
+    color: #232426;
+    background: #fff;
+}
+
+hr {
+    border: none;
+    margin: 30px 0;
+    background: #232426;
+    height: 10px;
+}
+
+/* TEXTS */
+
+h1 {
+    margin: 1% 0;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+p {
+    color: #5f6368;
+    padding: 0 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+li {
+    padding: 10px 0;
+}
+
+/* FORMS */
+
+form {
+    padding: 5%;
+}
+
+fieldset {
+    border: none;
+    border-radius: 1%;
+    padding: 2%;
+    background: #f3f3f3;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 1% 0;
+    margin: 1% 0;
+    outline: none;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=tel]:focus {
+    background: #fffcc8;
+}
+
+input[type=button], input[type=submit], button {
+    border: none;
+    border-radius: 2px;
+    margin: 8px 0;
+    padding: 10px 25px;
+    background: #1273eb;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    transition-duration: 0.3s;
+}
+
+input[type=button]:hover, input[type=submit]:hover, button:hover {
+    background: #2a82ef;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+/* LABEL = TYPE FILE MASK */
+
+label {
+    border: none;
+    border-radius: 2px;
+    padding: 10px 25px;
+    background: #1273eb;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    transition-duration: 0.3s;
+}
+
+label:hover {
+    background: #2a82ef;
+}
+
+/* CHECKBOX */
+
+input[type='checkbox'] {
+    top: 4px;
+    margin: 1% 0;
+    width: 50px;
+    height: 23px;
+    position: relative;
+    background: #fff;
+    border: 2px solid #1273eb;
+}
+
+input[type='checkbox']:checked {
+    top: 4px;
+    margin: 1% 0;
+    width: 50px;
+    height: 23px;
+    position: relative;
+    background: #1273eb;
+    border: 2px solid #1273eb;
+}
+
+input[type='checkbox'] + label {
+    background: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #232426;
+    padding: 0;
+}
+
+input[type='checkbox']:hover, label:hover {
+    cursor: default!important;
+}
+
+/* RADIO */
+
+input[type='radio'] {
+    top: 4px;
+    margin: 1% 0;
+    width: 50px;
+    height: 23px;
+    position: relative;
+    border-radius: 100%;
+    background: #fff;
+    border: 2px solid #1273eb;
+}
+
+input[type='radio']:checked {
+    top: 4px;
+    margin: 1% 0;
+    width: 50px;
+    height: 23px;
+    position: relative;
+    display: inline-block;
+    border-radius: 100%;
+    background: #1273eb;
+    border: 2px solid #1273eb;
+}
+
+input[type='radio'] + label {
+    background: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #232426;
+    padding: 0;
+}
+
+/* SELECT */
+
+select {
+    width: 100%!important;
+    border: none;
+    border-radius: 3px;
+    margin: 1% 0;
+    padding: 1% 0;
+}
+
+select + option {
+    width: 100%;
+}
+
+/****************************************/
+
+/* GRID */
+
+.full-width {
+    width: 100%;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* ALIGNMENTS */
+
+.all-center {
+    align-content: center;
+    text-align: center;
+}
+
+.all-left {
+    align-content: left;
+    text-align: left;
+}
+
+.all-right {
+    align-content: right;
+    text-align: right;
+}
+
+/* TEXTS */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.justify {
+    text-align: justify;
+}
+
+/* BUTTONS */
+
+.button-minimal {
+    border: solid 1px;
+    border-color: #1273eb;
+    border-radius: 2px;
+    margin: 8px 0;
+    padding: 10px 25px;
+    background: none;
+    color: #1273eb;
+    font-size: 12px;
+    font-weight: 600;
+    transition-duration: 0.3s;
+}
+
+.button-minimal:hover {
+    background: none;
+    color: #2a82ef;
+    border-color: #2a82ef;
+}
+
+/* MENUS */
+
+.nav-item {
+    padding: 10px 20px;
+    background: #f8f8f8;
+    transition-duration: 0.3s;
+}
+
+.nav-item:hover {
+    text-decoration: none;
+    background: #f2f2f2;
+}
+
+/* COLORS */
+
+.bg-gray {
+    background: #f7f7f7;
+}
+
+/* TABLES */
+
+table {
+    width: 100%;
+    background: none;
+    border-collapse: collapse;
+}
+
+th {
+    border-radius: 5px;
+    padding: 1.3%;
+    background: #ffff00;
+    border: 1px solid #000;
+}
+
+td {
+    border-radius: 5px;
+    padding: 0 1%;
+    background: #f2f2f2;
+    border: 1px solid #000;
+}
+
+/* EFFECTS */
+
+.fx-grow {
+    transition-duration: 0.3s;
+}
+
+.fx-grow:hover {
+    transform: scale(1.2);
+}
+
+.fx-rotate {
+    transition-duration: 0.3s;
+}
+
+.fx-rotate:hover {
+    transform: rotate(93deg);
+}
+
+.fx-zoom-out {
+    transition-duration: 0.3s;
+}
+
+.fx-zoom-out:hover {
+    transform: scale(0.5);
+}
