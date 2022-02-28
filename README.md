@@ -5,17 +5,18 @@
 </p>
 
 <h1 align="center">
-    <b>Simetry</b>
+    <b>SIMETRY</b>
 </h1>
 <h2 style="text-align: center;">
-    Web Front-End Starter Pack
+    Web Front-End Toolkit
 </h2>
+
 <br>
-<div style="text-align: center; font-size: 30px;">⚠️</div>
-<p style="font-weight: 700; color: #ffff00; text-align: center;">
-Attention: This project is under development, initially with no intention of any official release.
-</p>
+
+><div align="center">⚠️
+><div align="center">Attention: This project is under development, initially with no intention of any official release.
 <br>
+
 <h2>
     Description
 </h2>
@@ -29,13 +30,13 @@ Attention: This project is under development, initially with no intention of any
     Characteristics
 </h2>
 
-<div style="font-size: 14px!important;"><i>
+<i>
     • Perfect responsive effect.
     <br>
     • Universal classes for hovers, colors, etc.
     <br>
-    • Have a complete code to create the front-end of any responsive application, being able to run 100% independently, without libraries or online repositories, including fonts and icons.</i>
-</div>
+    • Have a complete code to create the front-end of any responsive application, being able to run 100% independently, without libraries or online repositories, including fonts and icons.
+</i>
 
 <br>
 
@@ -43,20 +44,20 @@ Attention: This project is under development, initially with no intention of any
     Features
 </h2>
 
-<div style="font-size: 14px!important;"><i>
+<i>
     • Cards
     <br>
     • Forms
     <br>
-    • Slides
+    • Sliders
     <br>
     • Carousels
     <br>
-    • Tables</i>
-</div>
-<br>
+    • Tables
+</i>
+
 <hr>
-<br>
+
 <h2>
     How To Use
 </h2>
