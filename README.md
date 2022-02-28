@@ -4,7 +4,7 @@
   <img width="150" src="https://raw.githubusercontent.com/paulogobetti/simetry/4b15c5bbf6b638f148dcd731ea05bebc2d6db67a/img/simetry-logo-icon-white-bg.svg">
 </p>
 
-<h1 style="padding-bottom: 3%;">
+<h1 align="center">
     <b>Simetry</b>
 </h1>
 <h2 style="text-align: center;">
