@@ -1,35 +1,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-<style>
-
-    * {
-        font-family: Montserrat!important;
-        font-size: 16px;
-    }
-
-    h1 {
-        font-size: 32px;
-        font-weight: 900;
-        text-align: center;
-        text-transform: uppercase;
-    }
-
-    h2 {
-        font-size: 23px;
-        font-weight: 800;
-    }
-    p {
-
-    }
-
-</style>
-
 <p align="center">
   <img width="150" src="https://raw.githubusercontent.com/paulogobetti/simetry/4b15c5bbf6b638f148dcd731ea05bebc2d6db67a/img/simetry-logo-icon-white-bg.svg">
 </p>
 
 <h1 style="padding-bottom: 3%;">
-    Simetry
+    <b>Simetry</b>
 </h1>
 <h2 style="text-align: center;">
     Web Front-End Starter Pack
