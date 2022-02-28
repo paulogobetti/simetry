@@ -7,7 +7,7 @@
 <h1 align="center">
     <b>SIMETRY</b>
 </h1>
-<h2 style="text-align: center;">
+<h2 align="center">
     Web Front-End Toolkit
 </h2>
 
