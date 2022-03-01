@@ -198,21 +198,34 @@ select + option {
     margin: 0 auto;
 }
 
+/*
+.flow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+*/
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* ALIGNMENTS */
 
-.all-center {
+.align-center {
     align-content: center;
     text-align: center;
 }
 
-.all-left {
-    align-content: left;
-    text-align: left;
-}
-
-.all-right {
+.align-right {
     align-content: right;
     text-align: right;
+}
+
+.align-left {
+    align-content: left;
+    text-align: left;
 }
 
 /* TEXTS */
@@ -248,8 +261,14 @@ select + option {
 
 /* MENUS */
 
+/*
+nav, .nav-item {
+    
+}
+*/
+
 .nav-item {
-    padding: 10px 20px;
+    padding: 1.3% 1.8%;
     background: #f8f8f8;
     transition-duration: 0.3s;
 }
@@ -276,15 +295,16 @@ table {
 th {
     border-radius: 5px;
     padding: 1.3%;
-    background: #ffff00;
-    border: 1px solid #000;
+    background: #1273eb;
+    border: 1px solid #fff;
+    color: #fff;
 }
 
 td {
     border-radius: 5px;
     padding: 0 1%;
     background: #f2f2f2;
-    border: 1px solid #000;
+    border: 1px solid #fff;
 }
 
 /* EFFECTS */
@@ -315,12 +335,18 @@ td {
 
 /* MEDIAS */
 
+@media (min-width: 1px) {
+    .container {
+        max-width: 410px;
+    }
+}
+
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
     }
 }
-  
+
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
