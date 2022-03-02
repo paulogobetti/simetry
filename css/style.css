@@ -333,6 +333,14 @@ td {
     transform: scale(0.5);
 }
 
+.fx-rotate-360 {
+    transition-duration: 0.3s;
+}
+
+.fx-rotate-360:hover {
+    transform: rotate(360deg);
+}
+
 /* MEDIAS */
 
 @media (min-width: 1px) {
