@@ -22,6 +22,8 @@
 </h2>
     Front-end development starter pack, lightweight and prepared to build layouts efficiently, beautifully and symmetrically, taking advantage of the main HTML tags and creating 'universal' classes to replace just the appearance of the elements.
 <br><br>
+    Challenge: Try to convert all proportions from "px" to "%".
+<br><br>
     Below are specifications about its scope (initial ideas) and features that will be created.<br><br>
     <b>Disclaimer: Any element may be added or removed in future updates.</b>
 <br><br>    
