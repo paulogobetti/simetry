@@ -141,8 +141,11 @@
             <button class="button-dark">
                 Dark Button
             </button>
-            <button class="button-minimal">
+            <button class="btn-minimal">
                 Minimal Button
+            </button>
+            <button class="btn-neon-blue">
+                Blue Neon Button
             </button>
         </div>
     </section>
@@ -211,7 +214,29 @@
         <div class="container align-center">
             Hello Footer
         </div>
+        <!--
+        <div class="container align-center">
+            <div class="">
+                <h1>
+                    Dark Mode
+                </h1>
+                <div class="btn-dark-container">
+                    <label for="" class="btn-dark-switch">
+                        <input id="" type="checkbox" onclick="changeMode()">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        -->
     </footer>
+
+    <script>
+        function changeMode() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+    </script>
     
 </body>
 
