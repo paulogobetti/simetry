@@ -1,15 +1,16 @@
 :root {
-    --bg-color: #f2f2f2;
     --text-color: #232426;
 }
 
 * {
     font-family: Montserrat!important;
     margin: 0;
-    padding: 0;
-    background: var(--bg-color);
     color: var(--text-color);
-    transition: .6s;
+}
+
+body {
+    background: #f3f3f3;
+    padding: 2% 0;
 }
 
 hr {
@@ -22,7 +23,6 @@ hr {
 /* TEXTS */
 
 h1 {
-    margin: 1% 0;
     font-size: 30px;
     font-weight: 800;
     letter-spacing: 3px;
@@ -55,7 +55,7 @@ form {
 fieldset {
     border: none;
     border-radius: 1%;
-    padding: 2%;
+    padding: 4%;
     background: #f3f3f3;
 }
 
@@ -185,6 +185,7 @@ select {
     border-radius: 3px;
     margin: 1% 0;
     padding: 1% 0;
+    padding-left: 7px;
 }
 
 select + option {
@@ -292,75 +293,70 @@ select + option {
                 0 0 20px #1273eb;
 }
 
-.btn-dark-container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn-dark-switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
+/* Classe duplicada que, se removida altera propriedade do botão */
+input[type='checkbox']:hover, label:hover {
+    cursor: default!important;
 }
 
 .btn-dark-switch input {
     display: none;
 }
 
+.btn-dark-switch {
+    position: relative;
+    display: inline-block;
+    height: 28px;
+    padding: 3px 30px;
+    margin: 0;
+    background: none;
+    border: none;
+}
+
+.btn-dark-switch:hover {
+    background: none;
+}
+
 .slider {
     position: absolute;
     cursor: pointer;
     top: 0;
-    left: 0;
     right: 0;
     bottom: 0;
+    left: 0;
     background: #ccc;
     border-radius: 34px;
     transition: .4s;
 }
 
-.slider::before {
+.slider:before {
     content: "";
     position: absolute;
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
+    height: 23px;
+    width: 23px;
+    bottom: 16%;
+    left: 10%;
     background: #fff;
     border-radius: 50%;
     transition: .4s;
 }
 
 input:checked + .slider {
-    background: #ffff66;
+    background: #b892ff;
 }
 
 input:checked + .slider:before {
-    transform: translateX(26px);
+    transform: translateX(25px);
 }
 
 .dark-mode {
     background: #0b0a14;
+    transition: .7s;
 }
 
 .dark-mode h1 {
     color: #f7f0e9;
+    transition: .7s;
 }
-
-/*
-.btn-dark-teste {
-    
-}
-
-input[type='checkbox'] .btn-dark-mode {
-    display: none!important;
-}
-*/
 
 /* MENUS */
 
@@ -393,21 +389,20 @@ table {
     width: 100%;
     background: none;
     border-collapse: collapse;
+    border: none;
 }
 
 th {
-    border-radius: 5px;
+    border: 1px solid #53a0ff;
     padding: 1.3%;
     background: #1273eb;
-    border: 1px solid #fff;
     color: #fff;
 }
 
 td {
-    border-radius: 5px;
+    border: 1px solid #53a0ff;
     padding: 0 1%;
     background: #f2f2f2;
-    border: 1px solid #fff;
 }
 
 /* EFFECTS */

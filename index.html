@@ -210,40 +210,26 @@
 
     <hr>
 
-    <div id="container" class="btn-dark-container">
-        <h1>Light / Dark Mode Toggle</h1>
-        <label class="btn-dark-switch">
-          <input type="checkbox" onclick="changeMode()">
-          <span class="slider"></span>
-        </label>
-    </div>
+    <section id="dark-mode"> <!-- Dark Mode -->
+        <div class="container align-center">
+            <h1 class="uppercase">Dark Mode</h1>
+            <br>
+            <label class="btn-dark-switch">
+              <input type="checkbox" onclick="DarkMode()">
+              <span class="slider"></span>
+            </label>
+        </div>
+    </section>
+
+    <hr>
 
     <footer>
         <div class="container align-center">
             Hello Footer
         </div>
-        <!--
-        <div class="container align-center">
-            <div class="">
-                <h1>
-                    Dark Mode
-                </h1>
-                <div class="btn-dark-container">
-                    <label for="" class="btn-dark-switch">
-                        <input id="" type="checkbox" onclick="changeMode()">
-                        <span class="slider"></span>
-                    </label>
-                </div>
-            </div>
-        </div>
-        -->
     </footer>
 
-    <script>
-        function changeMode() {
-           var element = document.body;
-           element.classList.toggle("dark-mode");
-        }
+    <script type="text/javascript" src="js/scripts.js">
     </script>
     
 </body>
