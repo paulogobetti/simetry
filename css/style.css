@@ -9,6 +9,7 @@
     padding: 0;
     background: var(--bg-color);
     color: var(--text-color);
+    transition: .6s;
 }
 
 hr {
