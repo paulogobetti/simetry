@@ -24,20 +24,56 @@
                 </div>
             </div>
             <br>
-            <div class="">
-                <nav class="">
-                    <span class="">
+            <div>
+                <nav>
+                    <div class="nav-menu">
                         <a href="#texts" class="nav-item">Texts</a>
                         <a href="#forms" class="nav-item">Forms</a>
                         <a href="#lists" class="nav-item">Lists</a>
                         <a href="#buttons" class="nav-item">Buttons</a>
                         <a href="#hover" class="nav-item">Hover</a>
                         <a href="javascript.html" class="nav-item">JavaScript</a>
-                    </span>
+                    </div>
                 </nav>
             </div>
         </div>
     </header>
+
+    <hr>
+
+    <section id="dark-mode"> <!-- Dark Mode -->
+        <div class="container align-center">
+            <h1 class="uppercase">Dark Mode</h1>
+            <label class="btn-dark-switch">
+              <input type="checkbox" onclick="darkMode()">
+              <span class="slider"></span>
+            </label>
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <div class="container">
+            <div class="nav-toggle-menu"> <!-- Toggle -->
+                <div class="nav-btn">
+                  <div class="nav-btn-hamb"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="search"> <!-- Search Bar -->
+        <div class="container align-object-center">
+            <h1 class="uppercase">Seach Bar</h1>
+            <div class="no-wrap" style="background: #000;"> <!-- Tool -->
+                <input type="search" name="" id="" placeholder="Search...">
+                <img src="img/simetry-logo-icon-white-bg.svg" id="search-img" width="10%;">
+            </div>
+        </div>
+    </section>
 
     <hr>
 
@@ -115,25 +151,27 @@
     <section id="lists" class=""> <!-- Lists -->
         <div class="container align-center">
             <h1 class="uppercase">Lists</h1>
-            <ul>
-                <li>Unordered 1</li>
-                <li>Unordered 2</li>
-                <li>Unordered 3</li>
-                <li>Unordered 4</li>
-            </ul>
-            <ol>
-                <li>Ordered 1</li>
-                <li>Ordered 2</li>
-                <li>Ordered 3</li>
-                <li>Ordered 4</li>
-            </ol>
+            <div>
+                <ul class="">
+                    <li>Unordered 1</li>
+                    <li>Unordered 2</li>
+                    <li>Unordered 3</li>
+                    <li>Unordered 4</li>
+                </ul>
+                <ol>
+                    <li>Ordered 1</li>
+                    <li>Ordered 2</li>
+                    <li>Ordered 3</li>
+                    <li>Ordered 4</li>
+                </ol>
+            </div>
         </div>
     </section>
 
     <hr>
 
     <section id="buttons" class=""> <!-- Buttons -->
-        <div class="align-center">
+        <div class="container align-center">
             <h1 class="uppercase">Buttons</h1>
             <button>
                 Basic Button
@@ -153,21 +191,12 @@
     <hr>
 
     <section id="hover" class=""> <!-- Hovers -->
-        <div class="align-center">
+        <div class="container align-center">
             <h1 class="uppercase">Hover Effects</h1>
             <img src="img/simetry-logo-icon.svg" width="80" class="fx-rotate" style="padding: 50px;">
             <img src="img/simetry-logo-icon.svg" width="80" class="fx-grow" style="padding: 50px;">
             <img src="img/simetry-logo-icon.svg" width="80" class="fx-zoom-out" style="padding: 50px;">
             <img src="img/simetry-logo-icon.svg" width="80" class="fx-rotate-360" style="padding: 50px;">
-        </div>
-    </section>
-
-    <hr>
-
-    <section id="search" class=""> <!-- Search Bar -->
-        <div class="container align-center">
-            <h1 class="uppercase">Seach Bar</h1>
-            <input type="search" name="" id="">
         </div>
     </section>
 
@@ -210,27 +239,13 @@
 
     <hr>
 
-    <section id="dark-mode"> <!-- Dark Mode -->
-        <div class="container align-center">
-            <h1 class="uppercase">Dark Mode</h1>
-            <br>
-            <label class="btn-dark-switch">
-              <input type="checkbox" onclick="DarkMode()">
-              <span class="slider"></span>
-            </label>
-        </div>
-    </section>
-
-    <hr>
-
     <footer>
         <div class="container align-center">
             Hello Footer
         </div>
     </footer>
 
-    <script type="text/javascript" src="js/scripts.js">
-    </script>
+    <script type="text/javascript" src="js/scripts.js"></script>
     
 </body>
 
