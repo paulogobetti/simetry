@@ -23,17 +23,16 @@
                     <a href="#"><img src="img/simetry-logo-icon.svg" width="150"></a>
                 </div>
             </div>
-            <br>
             <div>
                 <nav>
-                    <div class="nav-menu">
-                        <a href="#texts" class="nav-item">Texts</a>
-                        <a href="#forms" class="nav-item">Forms</a>
-                        <a href="#lists" class="nav-item">Lists</a>
-                        <a href="#buttons" class="nav-item">Buttons</a>
-                        <a href="#hover" class="nav-item">Hover</a>
-                        <a href="javascript.html" class="nav-item">JavaScript</a>
-                    </div>
+                    <span class="">
+                        <a href="#texts" class="">Texts</a>
+                        <a href="#forms" class="">Forms</a>
+                        <a href="#lists" class="">Lists</a>
+                        <a href="#buttons" class="">Buttons</a>
+                        <a href="#hover" class="">Hover</a>
+                        <a href="javascript.html" class="">JavaScript</a>
+                    </span>
                 </nav>
             </div>
         </div>
@@ -44,10 +43,12 @@
     <section id="dark-mode"> <!-- Dark Mode -->
         <div class="container align-center">
             <h1 class="uppercase">Dark Mode</h1>
-            <label class="btn-dark-switch">
-              <input type="checkbox" onclick="darkMode()">
-              <span class="slider"></span>
-            </label>
+            <div class="pb-4">
+                <label class="btn-dark-switch">
+                    <input type="checkbox" onclick="darkMode()">
+                    <span class="slider"></span>
+                  </label>
+            </div>
         </div>
     </section>
 
@@ -68,7 +69,7 @@
     <section id="search"> <!-- Search Bar -->
         <div class="container align-object-center">
             <h1 class="uppercase">Seach Bar</h1>
-            <div class="no-wrap" style="background: #000;"> <!-- Tool -->
+            <div class="no-wrap pb-4"> <!-- Tool -->
                 <input type="search" name="" id="" placeholder="Search...">
                 <img src="img/simetry-logo-icon-white-bg.svg" id="search-img" width="10%;">
             </div>

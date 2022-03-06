@@ -3,19 +3,18 @@ function darkMode() {
     element.classList.toggle("dark-mode");
 }
 
-const menuButton = document.querySelector('.nav-btn');
-let menuOpen = false;
-menuButton.addEventListener('click', () => {
+const toggleMenu = document.querySelector('.nav-btn');
+let openMenu = false;
+toggleMenu.addEventListener('click', () => {
 
-  if(!menuOpen) {
-    menuButton.classList.add('open');
-    menuOpen = true;
+  if(!openMenu) {
+    toggleMenu.classList.add('open');
+    openMenu = true;
   }
 
   else {
-    menuButton.classList.remove('open');
-    menuOpen = false;
+    toggleMenu.classList.remove('open');
+    openMenu = false;
   }
 
 });
- 
