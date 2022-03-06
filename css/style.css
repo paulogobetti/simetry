@@ -89,8 +89,8 @@ input[type=button], input[type=submit], button {
     border: none;
     border-radius: 2px;
     margin: 8px 0;
-    padding: 10px 25px;
-    background: #1273eb;
+    padding: 3% 4.5%;
+    background: #000;
     color: #ffffff;
     font-size: 12px;
     font-weight: 600;
@@ -111,8 +111,8 @@ input[type="file"] {
 label {
     border: none;
     border-radius: 2px;
-    padding: 10px 25px;
-    background: #1273eb;
+    padding: 3% 4.5%;
+    background: #000;
     color: #ffffff;
     font-size: 12px;
     font-weight: 600;
@@ -230,7 +230,6 @@ input[type=search] {
 .container {
     width: 1140px;
     margin: 0 auto;
-    background: #fd0;
 }
 
 .fit-to-screen {
@@ -273,7 +272,7 @@ input[type=search] {
 }
 
 .pt-4 {
-    padding-top: .9%;
+    padding-top: 1%;
 }
 
 .pb-1 {
@@ -334,25 +333,25 @@ input[type=search] {
     text-align: justify;
 }
 
-/* BUTTONS */
+/* BUTTONS SHAPES */
 
 .btn-minimal {
     border: solid 1px;
-    border-color: #1273eb;
+    border-color: #000;
     border-radius: 2px;
     margin: 8px 0;
-    padding: 10px 25px;
+    padding: 3% 4.5%;
     background: none;
-    color: #1273eb;
+    color: #000;
     font-size: 12px;
     font-weight: 600;
     transition-duration: .3s;
 }
 
 .btn-minimal:hover {
-    background: none;
-    color: #2a82ef;
-    border-color: #2a82ef;
+    background: #000;
+    color: #fff;
+    border-color: #000;
 }
 
 .btn-neon-blue {
@@ -439,12 +438,59 @@ input:checked + .slider:before {
     transform: translateX(25px);
 }
 
+/* DARK MODE EFFECT */
+
 .dark-mode {
     background: #0b0a14;
 }
 
 .dark-mode h1 {
-    color: #f7f0e9;
+    color: #fd0;
+}
+
+.dark-mode h2 {
+    color: #fd0;
+}
+
+.dark-mode h3 {
+    color: #fd0;
+}
+
+.dark-mode h4 {
+    color: #fd0;
+}
+
+.dark-mode h5 {
+    color: #fd0;
+}
+
+.dark-mode h6 {
+    color: #fd0;
+}
+
+.dark-mode .nav-btn-hamb::before {
+    background: #fd0;
+}
+
+.dark-mode .nav-btn-hamb::after {
+    background: #fd0;
+}
+
+.dark-mode .nav-btn-hamb {
+    background: #fd0;
+}
+
+.dark-mode hr {
+    background: #fd0;
+    transition: .7s;
+}
+
+.dark-mode a {
+    color: #fd0;
+}
+
+.dark-mode p {
+    color: #ffe53c;
 }
 
 /* MENUS */
@@ -579,7 +625,7 @@ td {
 .nav-btn-hamb {
     width: 50px;
     height: 6px;
-    background: #fff;
+    background: #000;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
     transition: all .5s ease-in-out;
@@ -590,7 +636,7 @@ td {
     position: absolute;
     width: 50px;
     height: 6px;
-    background: #fff;
+    background: #000;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
     transition: all .5s ease-in-out;
