@@ -715,3 +715,13 @@ td {
         max-width: 1140px;
     }
 }
+
+/* 
+// Serve para deixar os labels (quando não ocultos) com espaçamento mínimo.
+label #div-que-representa-o-titulo-do-label {
+    display: inline-block;
+    min-width: 96px;
+    font-weight: 500;
+    font-size: 16px;
+}
+*/
