@@ -1,15 +1,17 @@
 :root {
-    --text-color: #000;
+    --primary-color: #fd0;
+    --secondary-color: #000;
+    --primary-text-color: #000;
 }
 
 * {
     font-family: Montserrat!important;
     margin: 0;
-    color: var(--text-color);
+    color: var(--primary-text-color);
 }
 
 body {
-    background: #fd0;
+    background: var(--primary-color);
     transition: .7s;
 }
 
@@ -53,6 +55,7 @@ a:hover {
 
 li {
     padding: 1.7% 0;
+    list-style-position: inside;
 }
 
 ul, ol {
@@ -90,7 +93,7 @@ input[type=button], input[type=submit], button {
     border-radius: 2px;
     margin: 8px 0;
     padding: 3% 4.5%;
-    background: #000;
+    background: var(--secondary-color);
     color: #ffffff;
     font-size: 12px;
     font-weight: 600;
@@ -109,10 +112,11 @@ input[type="file"] {
 /* LABEL = TYPE FILE MASK */
 
 label {
+    display: inline-block;
     border: none;
     border-radius: 2px;
     padding: 3% 4.5%;
-    background: #000;
+    background: var(--secondary-color);
     color: #ffffff;
     font-size: 12px;
     font-weight: 600;
@@ -128,21 +132,21 @@ label:hover {
 input[type='checkbox'] {
     top: 4px;
     margin: 1% 0;
-    width: 50px;
+    width: 6%;
     height: 23px;
     position: relative;
-    background: #fff;
-    border: 2px solid #1273eb;
+    background: #000;
+    border: 20px solid #fff!important;
 }
 
 input[type='checkbox']:checked {
     top: 4px;
     margin: 1% 0;
-    width: 50px;
+    width: 6%;
     height: 23px;
     position: relative;
-    background: #1273eb;
-    border: 2px solid #1273eb;
+    background: var(--secondary-color)!important;
+    border: 2px solid var(--secondary-color)!important;
 }
 
 input[type='checkbox'] + label {
@@ -162,24 +166,24 @@ input[type='checkbox']:hover, label:hover {
 input[type='radio'] {
     top: 4px;
     margin: 1% 0;
-    width: 50px;
+    width: 6%;
     height: 23px;
     position: relative;
     border-radius: 100%;
-    background: #fff;
-    border: 2px solid #1273eb;
+    background: !important;
+    border: 2px solid !important;
 }
 
 input[type='radio']:checked {
     top: 4px;
     margin: 1% 0;
-    width: 50px;
+    width: 6%;
     height: 23px;
     position: relative;
     display: inline-block;
     border-radius: 100%;
-    background: #1273eb;
-    border: 2px solid #1273eb;
+    background: var(--secondary-color)!important;
+    border: 2px solid var(--secondary-color)!important;
 }
 
 input[type='radio'] + label {
@@ -230,6 +234,11 @@ input[type=search] {
 .container {
     width: 1140px;
     margin: 0 auto;
+}
+
+.box {
+    width: 100%;
+    padding: 3px;
 }
 
 .fit-to-screen {
@@ -337,21 +346,21 @@ input[type=search] {
 
 .btn-minimal {
     border: solid 1px;
-    border-color: #000;
+    border-color: var(--secondary-color);
     border-radius: 2px;
     margin: 8px 0;
     padding: 3% 4.5%;
     background: none;
-    color: #000;
+    color: var(--secondary-color);
     font-size: 12px;
     font-weight: 600;
     transition-duration: .3s;
 }
 
 .btn-minimal:hover {
-    background: #000;
+    background: var(--secondary-color);
     color: #fff;
-    border-color: #000;
+    border-color: var(--secondary-color);
 }
 
 .btn-neon-blue {
@@ -413,7 +422,7 @@ input[type='checkbox']:hover, label:hover {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #000;
+    background: var(--secondary-color);
     border-radius: 34px;
     transition: .4s;
 }
@@ -431,7 +440,7 @@ input[type='checkbox']:hover, label:hover {
 }
 
 input:checked + .slider {
-    background: #fd0;
+    background: var(--primary-color);
 }
 
 input:checked + .slider:before {
@@ -445,48 +454,48 @@ input:checked + .slider:before {
 }
 
 .dark-mode h1 {
-    color: #fd0;
+    color: var(--primary-color);
 }
 
 .dark-mode h2 {
-    color: #fd0;
+    color: var(--primary-color);
 }
 
 .dark-mode h3 {
-    color: #fd0;
+    color: var(--primary-color);
 }
 
 .dark-mode h4 {
-    color: #fd0;
+    color: var(--primary-color);
 }
 
 .dark-mode h5 {
-    color: #fd0;
+    color: var(--primary-color);
 }
 
 .dark-mode h6 {
-    color: #fd0;
+    color: var(--primary-color);
 }
 
 .dark-mode .nav-btn-hamb::before {
-    background: #fd0;
+    background: var(--primary-color);
 }
 
 .dark-mode .nav-btn-hamb::after {
-    background: #fd0;
+    background: var(--primary-color);
 }
 
 .dark-mode .nav-btn-hamb {
-    background: #fd0;
+    background: var(--primary-color);
 }
 
 .dark-mode hr {
-    background: #fd0;
+    background: var(--primary-color);
     transition: .7s;
 }
 
 .dark-mode a {
-    color: #fd0;
+    color: var(--primary-color);
 }
 
 .dark-mode p {
@@ -625,7 +634,7 @@ td {
 .nav-btn-hamb {
     width: 50px;
     height: 6px;
-    background: #000;
+    background: var(--secondary-color);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
     transition: all .5s ease-in-out;
@@ -636,7 +645,7 @@ td {
     position: absolute;
     width: 50px;
     height: 6px;
-    background: #000;
+    background: var(--secondary-color);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
     transition: all .5s ease-in-out;
