@@ -1,10 +1,12 @@
+// Switch Button
 function darkMode() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
+  const darkModeBody = document.body;
+  darkModeBody.classList.toggle("dark-mode");
 }
 
+// Toggle Menu Button
 const toggleMenu = document.querySelector('.nav-btn');
-let openMenu = false;
+const openMenu = false;
 toggleMenu.addEventListener('click', () => {
 
   if(!openMenu) {

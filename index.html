@@ -16,6 +16,31 @@
 <body>
 
     <header>
+        <div class="full-width flex-row align-middle">
+            <div id="brand">
+                <a href="/simetry"><img src="img/simetry-logo-icon.svg" width="70" class="pd-1"></a>
+            </div>
+            <div class="nav-menu ml-auto">
+                <nav>
+                    <div class="nav-toggle-menu"> <!-- Toggle Button -->
+                        <div class="nav-btn">
+                          <div class="nav-btn-hamb"></div>
+                        </div>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#texts">Texts</a></li>
+                        <li class="nav-item"><a href="#forms">Forms</a></li>
+                        <li class="nav-item"><a href="#lists">Lists</a></li>
+                        <li class="nav-item"><a href="#buttons">Buttons</a></li>
+                        <li class="nav-item"><a href="#hover">Hover</a></li>
+                        <li class="nav-item"><a href="javascript.html">JavaScript</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- <header>
         <div class="container align-center pb-4">
             <div>
                 <h1>SIMETRY</h1>
@@ -38,7 +63,7 @@
                 </nav>
             </div>
         </div>
-    </header>
+    </header> -->
 
     <hr>
 
@@ -47,25 +72,25 @@
             <h1 class="uppercase">Dark Mode</h1>
             <br>
             <div class="pb-4">
-                <label class="btn-dark-switch">
+                <label class="btn-switch">
                     <input type="checkbox" onclick="darkMode()">
-                    <span class="slider"></span>
-                  </label>
+                    <span class="btn-slider"></span>
+                </label>
             </div>
         </div>
     </section>
 
-    <hr>
+    <!-- <hr>
 
     <section>
         <div class="container">
-            <div class="nav-toggle-menu"> <!-- Toggle -->
+            <div class="nav-toggle-menu">
                 <div class="nav-btn">
                   <div class="nav-btn-hamb"></div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <hr>
 
@@ -100,7 +125,8 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <br>
-            <a href="#">Visit Simetry Page!</a>
+            <a href="https://paulogobetti.com/simetry">Visit Simetry Page!</a>
+            <br><br>
         </div>
     </section>
 
@@ -140,13 +166,6 @@
                         <option value="Option 3">Option 3</option>
                         <option value="Option 4">Option 4</option>
                     </select>
-                    <br><br>
-                    <label for="file-upload">Select A Archive</label>
-                    <input id="file-upload" type="file">
-                    <br><br>
-                    <input type="button" value="Input Button">
-                    <br>
-                    <input type="submit" value="Submit Button">
                 </fieldset>
             </form>
         </div>
@@ -194,6 +213,10 @@
             <button class="btn-neon-blue">
                 Blue Neon Button
             </button>
+            <label for="file-upload">Input File Button</label>
+            <input id="file-upload" type="file">
+            <input type="button" value="Input Button">
+            <input type="submit" value="Submit Button">
         </div>
     </section>
 
@@ -249,8 +272,10 @@
     <hr>
 
     <footer>
-        <div class="container align-center">
-            Hello Footer
+        <div class="container flex align-middle" style="height: 150px;">
+            <div>
+                Hello Footer
+            </div>
         </div>
     </footer>
 
